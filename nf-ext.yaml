@@ -3,3 +3,4 @@ payload:
   - IP-CIDR,203.198.80.0/24,no-resolve
   - IP-CIDR,219.76.20.0/24,no-resolve
   - IP-CIDR,203.75.84.0/24,no-resolve
+  - IP-CIDR,182.239.95.0/24,no-resolve
