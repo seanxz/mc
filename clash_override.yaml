@@ -6,6 +6,99 @@
     url: https://raw.githubusercontent.com/seanxz/mc/main/nf-ext.yaml
     path: "./rule_provider/netflix-ext.yaml"
     interval: 86400
+  放行规则-lhie1(建议置顶并直连):
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Special.yaml
+    path: "./rule_provider/Special.yaml"
+    interval: 86400
+  自定义直连:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/seanxz/mc/refs/heads/main/direct.yaml
+    path: "./rule_provider/custom-direct.yaml"
+    interval: 86400
+  抖音:
+    type: http
+    behavior: classical
+    url: https://github.com/dler-io/Rules/raw/refs/heads/main/Clash/Provider/Douyin.yaml
+    path: "./rule_provider/Douyin.yaml"
+    interval: 86400
+  国内IP白名单(By lhie1):
+    type: http
+    behavior: classical
+    url: https:https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Domestic%20IPs.yaml
+    path: "./rule_provider/Domestic IPs.yaml"
+    interval: 86400
+  国内域名白名单(By lhie1):
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Domestic.yaml
+    path: "./rule_provider/Domestic.yaml"
+    interval: 86400
+  Xbox:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Xbox.yaml
+    path: "./rule_provider/Xbox.yaml"
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/SteamCN.yaml
+    path: "./rule_provider/SteamCN.yaml"
+    interval: 86400
+  Epic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Epic.yaml
+    path: "./rule_provider/Epic.yaml"
+    interval: 86400
+  Netflix(By lhie1):
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Provider/Media/Netflix.yaml
+    path: "./rule_provider/Netflix-lhie1.yaml"
+    interval: 86400
+  YouTube(By lhie1):
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Media/YouTube.yaml
+    path: "./rule_provider/YouTube-lhie1.yaml"
+    interval: 86400
+  国外常用网站合集(By lhie1):
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Proxy.yaml
+    path: "./rule_provider/Proxy.yaml"
+    interval: 86400
+  AI Suite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/AI
+      Suite.yaml
+    path: "./rule_provider/AI Suite.yaml"
+    interval: 86400
+  广告规则(By lhie1):
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/AdBlock.yaml
+    path: "./rule_provider/AdBlock.yaml"
+    interval: 86400
 
 +rules:
-  - "RULE-SET,netflix-ext,🎥 NETFLIX"
+  - RULE-SET,netflix-ext,🎥 NETFLIX
+  - RULE-SET,广告规则(By lhie1),⛔ 应用净化
+  - RULE-SET,AI Suite,🇺🇳 国外网站
+  - RULE-SET,国外常用网站合集(By lhie1),🇺🇳 国外网站
+  - RULE-SET,YouTube(By lhie1),📹 YouTube
+  - RULE-SET,Netflix(By lhie1),🎥 NETFLIX
+  - RULE-SET,Epic,DIRECT
+  - RULE-SET,SteamCN,DIRECT
+  - RULE-SET,Xbox,DIRECT
+  - RULE-SET,抖音,DIRECT
+  - RULE-SET,自定义直连,DIRECT
+  - RULE-SET,国内域名白名单(By lhie1),DIRECT
+  - RULE-SET,国内IP白名单(By lhie1),DIRECT
+  - RULE-SET,放行规则-lhie1(建议置顶并直连),DIRECT
+  - RULE-SET,custom-external,🇺🇳 国外网站
