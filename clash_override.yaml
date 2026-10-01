@@ -18,6 +18,12 @@
     url: https://raw.githubusercontent.com/seanxz/mc/refs/heads/main/direct.yaml
     path: "./rule_provider/custom-direct.yaml"
     interval: 86400
+  自定义国外:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/seanxz/mc/main/un-domain.yaml
+    path: "./rule_provider/custom-external"
+    interval: 86400
   抖音:
     type: http
     behavior: classical
@@ -101,4 +107,4 @@
   - RULE-SET,国内域名白名单(By lhie1),DIRECT
   - RULE-SET,国内IP白名单(By lhie1),DIRECT
   - RULE-SET,放行规则-lhie1(建议置顶并直连),DIRECT
-  - RULE-SET,custom-external,🇺🇳 国外网站
+  - RULE-SET,自定义国外,🇺🇳 国外网站
