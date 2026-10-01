@@ -8,4 +8,4 @@
     interval: 86400
 
 +rules:
-  - "RULE-SET,netflix-ext,\U0001F3A5 NETFLIX"
+  - "RULE-SET,netflix-ext,🎥 NETFLIX"
