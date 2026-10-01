@@ -1,0 +1,10 @@
+[YAML]
++netflix-ext:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/seanxz/mc/main/nf-ext.yaml
+    path: "./rule_provider/netflix-ext.yaml"
+    interval: 86400
+
++rules:
+  - RULE-SET,netflix-ext,\U0001F3A5 NETFLIX
