@@ -93,12 +93,7 @@
     interval: 86400
 
 +rules:
-  - RULE-SET,netflix-ext,🎥 NETFLIX
-  - RULE-SET,广告规则(By lhie1),⛔ 应用净化
-  - RULE-SET,AI Suite,🇺🇳 国外网站
-  - RULE-SET,国外常用网站合集(By lhie1),🇺🇳 国外网站
-  - RULE-SET,YouTube(By lhie1),📹 YouTube
-  - RULE-SET,Netflix(By lhie1),🎥 NETFLIX
+  - RULE-SET,放行规则-lhie1(建议置顶并直连),DIRECT
   - RULE-SET,Epic,DIRECT
   - RULE-SET,SteamCN,DIRECT
   - RULE-SET,Xbox,DIRECT
@@ -106,5 +101,10 @@
   - RULE-SET,自定义直连,DIRECT
   - RULE-SET,国内域名白名单(By lhie1),DIRECT
   - RULE-SET,国内IP白名单(By lhie1),DIRECT
-  - RULE-SET,放行规则-lhie1(建议置顶并直连),DIRECT
+  - RULE-SET,广告规则(By lhie1),⛔ 应用净化
+  - RULE-SET,netflix-ext,🎥 NETFLIX
+  - RULE-SET,AI Suite,🇺🇳 国外网站
+  - RULE-SET,国外常用网站合集(By lhie1),🇺🇳 国外网站
+  - RULE-SET,YouTube(By lhie1),📹 YouTube
+  - RULE-SET,Netflix(By lhie1),🎥 NETFLIX
   - RULE-SET,自定义国外,🇺🇳 国外网站
