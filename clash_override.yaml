@@ -72,11 +72,17 @@
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Epic.yaml
     path: "./rule_provider/Epic.yaml"
     interval: 86400
-  Netflix(By lhie1):
+  Netflix:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Provider/Media/Netflix.yaml
-    path: "./rule_provider/Netflix-lhie1.yaml"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Netflix.yaml
+    path: "./rule_provider/Netflix.yaml"
+    interval: 86400
+  NetflixIP:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/NetflixIP.yaml
+    path: "./rule_provider/NetflixIP.yaml"
     interval: 86400
   YouTube(By lhie1):
     type: http
@@ -120,5 +126,6 @@
   - RULE-SET,AI Suite,🇺🇳 国外网站
   - RULE-SET,国外常用网站合集(By lhie1),🇺🇳 国外网站
   - RULE-SET,YouTube(By lhie1),📹 YouTube
-  - RULE-SET,Netflix(By lhie1),🎥 NETFLIX
+  - RULE-SET,Netflix,🎥 NETFLIX
+  - RULE-SET,NetflixIP,🎥 NETFLIX
   - RULE-SET,自定义国外,🇺🇳 国外网站
