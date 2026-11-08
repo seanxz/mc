@@ -60,6 +60,12 @@
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Xbox.yaml
     path: "./rule_provider/Xbox.yaml"
     interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Microsoft.yaml
+    path: "./rule_provider/Microsoft.yaml"
+    interval: 86400
   SteamCN:
     type: http
     behavior: classical
@@ -120,6 +126,7 @@
   - RULE-SET,自定义直连,DIRECT
   - RULE-SET,国内域名白名单(By lhie1),DIRECT
   - RULE-SET,国内IP白名单(By lhie1),DIRECT
+  - RULE-SET,Microsoft,🧩 微软服务
   - RULE-SET,广告规则(By lhie1),⛔ 应用净化
   - RULE-SET,netflix-ext,🎥 NETFLIX
   - RULE-SET,AI,🇺🇳 国外网站
