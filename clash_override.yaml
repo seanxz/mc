@@ -96,12 +96,11 @@
     url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Proxy.yaml
     path: "./rule_provider/Proxy.yaml"
     interval: 86400
-  AI Suite:
+  AI:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/AI
-      Suite.yaml
-    path: "./rule_provider/AI Suite.yaml"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/AI.yaml
+    path: "./rule_provider/AI.yaml"
     interval: 86400
   广告规则(By lhie1):
     type: http
@@ -123,7 +122,7 @@
   - RULE-SET,国内IP白名单(By lhie1),DIRECT
   - RULE-SET,广告规则(By lhie1),⛔ 应用净化
   - RULE-SET,netflix-ext,🎥 NETFLIX
-  - RULE-SET,AI Suite,🇺🇳 国外网站
+  - RULE-SET,AI,🇺🇳 国外网站
   - RULE-SET,国外常用网站合集(By lhie1),🇺🇳 国外网站
   - RULE-SET,YouTube(By lhie1),📹 YouTube
   - RULE-SET,Netflix,🎥 NETFLIX
