@@ -12,6 +12,18 @@
     url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Special.yaml
     path: "./rule_provider/Special.yaml"
     interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Apple.yaml'
+    path: ./rule_provider/Apple.yaml
+    interval: 86400
+  Apple Push:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Apple%20Push.yaml'
+    path: ./rule_provider/Apple_Push.yaml
+    interval: 86400
   自定义直连:
     type: http
     behavior: classical
@@ -94,6 +106,8 @@
 
 +rules:
   - RULE-SET,放行规则-lhie1(建议置顶并直连),DIRECT
+  - RULE-SET,Apple,DIRECT
+  - RULE-SET,Apple Push,DIRECT
   - RULE-SET,Epic,DIRECT
   - RULE-SET,SteamCN,DIRECT
   - RULE-SET,Xbox,DIRECT
