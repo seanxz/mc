@@ -33,7 +33,7 @@
   国内IP白名单(By lhie1):
     type: http
     behavior: classical
-    url: https:https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Domestic%20IPs.yaml
+    url: https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/Domestic%20IPs.yaml
     path: "./rule_provider/Domestic IPs.yaml"
     interval: 86400
   国内域名白名单(By lhie1):
